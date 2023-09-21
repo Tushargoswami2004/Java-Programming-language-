@@ -1,0 +1,13 @@
+// In  a program, input the side of a square. you have to output the area of the square
+import java.util.*;
+public class JavaBasics{
+    public static void main(String args[]){
+        Scanner sc = new Scanner (System.in);
+        int side = sc.nextInt();
+        int Area = side * side;
+        System.out.println(Area);
+
+    }
+
+    
+}
