@@ -1,0 +1,13 @@
+// In a propram, input 3 numbers: A, B, and C you have to output the average of these 3 numbers 
+import java.util.*;
+public class JavaBasics{
+    public static void main (String args[]){
+        Scanner sc = new Scanner (System.in);
+        float number1 = sc.nextFloat();
+        short number2 = sc.nextShort();
+        byte number3 = sc.nextByte();
+        float  average =  (number1 + number2 + number3) / 3 ;
+        System.out.println(average);
+
+    }
+}
